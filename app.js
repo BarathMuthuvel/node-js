@@ -1,3 +1,7 @@
-let name = "Barath"
+const calculateSum = require("./sum");
+// import calculateSum from "./sum.js";
 
-console.log(name);
+let x = 5;
+let y = 10;
+
+calculateSum(x, y);
